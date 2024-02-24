@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.mainbgImg{
+  background-image: url("D:\React\react-money-space-app\src\mainbg.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
+}
+label{
+  font-size: 20px;
+  color: whitesmoke;
+
+}
+.topic{
+  width: 33.33%;
+  height: 29px;
+  border-radius: 14px;
+  background-color: lightgrey;
+  padding: 2px;
+}
+input{
+  border-radius: 4px;
+  border-style: none;
+}
+
+.expense-input-container{
+  margin-top: 60px;
+  border: 1px solid rgb(16, 58, 141);
+  border-radius: 14px;
+  min-height: 300px;
+  
+  background-color: rgb(255, 255, 255, 0.5);
+  backdrop-filter: blur(2px);
+}
+.list-heading{
+  background-color: darkgrey;
+  color: black;
+  height: 36px;
+  font-size: 17px;
+  width: 100%;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+.expenseList{
+  font-family: "Roboto";
+  list-style-type: none;
+}
+.list-item{
+  background-color: transparent;
+  color: rgb(8, 8, 8);
+  height: 30px;
+  font-size: 15px;
+  /* border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black; */
+  font-family: "Roboto";
+}
+.del-icon{
+  font-size: 18px;
+  padding-top: -4px;
+  color: darkred;
+}
+
+.total-expense{
+  color: red;
+  font-size: 18px;
+}
+.addmt{
+  margin-top: 120px;
+}
+/* 
+navbar stylling */
+
+.logo {
+  height: 80px;
+  width: 50px;
+  color: green;
+
+
+}
+
+.nav-bg-col {
+  background-color: transparent;
+  backdrop-filter: blur(2px);
+  height: fit-content;
+  padding: 4px;
+  height: 70px;
+}
+
+#navbar-text.nav-style {
+  font-size: 28px;
+  font-weight: 600;
+  color: green;
+}
+
+.nav-span-style {
+  color: rgb(146, 86, 52);
+}
