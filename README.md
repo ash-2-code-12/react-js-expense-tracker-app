@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+## React JS Expense Tracker Application
+- **Expense Tracker React App:** A sleek and modern expense tracker built with React, featuring a fresh design for intuitive user experience.
+- **Functionality:** Allows users to effortlessly add and delete expenses. Users can input expense details such as name and amount, which are then stored in an expense list.
+- **Total Amount Tracking:** Provides a real-time display of the total amount of money spent on recorded expenses, giving users instant financial insights.
+- **Persistent Data:** Utilizes local storage functionality to save expense details. Even after page reloads or prolonged periods of inactivity, the expense data remains intact, ensuring continuity of user records and convenience.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Application look  on Initial state
+![Screenshot 2024-02-25 152031](https://github.com/ash-2-code-12/react-js-expense-tracker-app/assets/128391295/1b4d3ee7-8966-499b-847b-5cc566ecc888)
 
-## Available Scripts
+### Application on Entering Expense Details
+![image](https://github.com/ash-2-code-12/react-js-expense-tracker-app/assets/128391295/521cfee2-ce7c-4633-a9f0-6a639bd87ab5)
 
-In the project directory, you can run:
+### Application on clicking Add button to add the the expense to expense list, notice that the total expense is also updated (red text)
 
-### `npm start`
+![image](https://github.com/ash-2-code-12/react-js-expense-tracker-app/assets/128391295/511dc656-b635-41f4-9a5e-0def7d3a1212)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Application on Saving the record, so it can persist on opening later
+![image](https://github.com/ash-2-code-12/react-js-expense-tracker-app/assets/128391295/e2ee6fb0-6386-42e7-b36e-d1d93e59c086)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### Application on deleting the expense already added, (to reduce human errors) 
+- removes the expense recor dfrom list and also updates the total expense
+-before deleting {popcorn expense} nad {breakfast expense}
+![image](https://github.com/ash-2-code-12/react-js-expense-tracker-app/assets/128391295/7aa2d806-3234-4435-ae99-fd6f552b971d)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-after deletion
+![image](https://github.com/ash-2-code-12/react-js-expense-tracker-app/assets/128391295/25f2944c-9081-4bc8-b198-9112025b909e)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Application Reload without saving the record after the deletion
+![image](https://github.com/ash-2-code-12/react-js-expense-tracker-app/assets/128391295/a1a42c95-59c8-4581-b71c-387b7d29fce6)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-we can see the items persist
+![image](https://github.com/ash-2-code-12/react-js-expense-tracker-app/assets/128391295/b85b6d8d-6e69-42d1-be77-ed215aacd592)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## working on more functionalities ideas are welcome: email to <ashwinpersonal2002@gmail.com>
