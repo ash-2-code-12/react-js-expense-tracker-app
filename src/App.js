@@ -56,7 +56,7 @@ const UserInputSection = () => {
     setExpensesList([...expensesList, { name: nameInput, amount: parseInt(amountInput), uniqueNo: expensesList.length }]);
     setNameInput("");
     setAmountInput("");
-    setTotalExpense(totalExpense + parseInt(amountInput));
+    setTotalExpense(parseInt(totalExpense) + parseInt(amountInput));
     return;
   };
 
